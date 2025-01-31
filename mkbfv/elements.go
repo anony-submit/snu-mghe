@@ -1,6 +1,6 @@
 package mkbfv
 
-import "mk-lattigo/mkrlwe"
+import "github.com/anony-submit/snu-mghe/mkrlwe"
 
 type Ciphertext struct {
 	*mkrlwe.Ciphertext

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/ldsec/lattigo/v2/ckks"
-	"mk-lattigo/mkckks"
-	"mk-lattigo/mkrlwe"
+	"github.com/anony-submit/snu-mghe/mkckks"
+	"github.com/anony-submit/snu-mghe/mkrlwe"
 )
 
 func BenchmarkCNN(b *testing.B) {

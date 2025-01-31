@@ -1,10 +1,11 @@
 package cnn
 
 import (
-	"github.com/ldsec/lattigo/v2/ckks"
 	"math"
-	"mk-lattigo/mkckks"
-	"mk-lattigo/mkrlwe"
+
+	"github.com/ldsec/lattigo/v2/ckks"
+	"github.com/anony-submit/snu-mghe/mkckks"
+	"github.com/anony-submit/snu-mghe/mkrlwe"
 )
 
 func Convolution(eval *mkckks.Evaluator, rlkSet *mkrlwe.RelinearizationKeySet, rtkSet *mkrlwe.RotationKeySet,

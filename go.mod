@@ -1,4 +1,4 @@
-module mk-lattigo
+module github.com/anony-submit/snu-mghe
 
 go 1.13
 

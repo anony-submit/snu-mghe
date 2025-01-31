@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"testing"
 
-	"mk-lattigo/mkrlwe"
+	"github.com/anony-submit/snu-mghe/mkrlwe"
 )
 
 func BenchmarkMKBFV(b *testing.B) {
